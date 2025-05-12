@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'tricks';
+    src: url('../fonts/TT-TricksTrialRegular.otf') format('opentype');
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+
+@font-face {
+    font-family: 'grotesk'; 
+    src: url('../fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'tricks', sans-serif;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: 'tricks', sans-serif;
+}
+
+h3 {
+    font-family: 'tricks', sans-serif;
+}
+
+h4 {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 60px;
+    font-family: 'grotesk', sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'grotesk', sans-serif;
+}
+
+a {
+    font-family: 'grotesk', sans-serif;
+}
