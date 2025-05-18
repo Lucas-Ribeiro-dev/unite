@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Lógica do filtro da galeria (mantendo como estava)
+  
   const menuLinks = document.querySelectorAll('#collection-menu a');
   const items = document.querySelectorAll('.collection-item');
 
