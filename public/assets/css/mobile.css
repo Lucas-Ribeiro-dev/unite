@@ -48,6 +48,12 @@
     margin: 30px auto;
   }
 
+  .item-content {
+    position: relative;
+    width: 100%;
+    height: 200px;
+  }
+
   .overlay {
     display: none;
   }
@@ -139,6 +145,12 @@
     grid-template-columns: repeat(3, minmax(40%, 1fr));
     column-gap: 10px;
     row-gap: 10px;
+  }
+
+  .item-content {
+    position: relative;
+    width: 100%;
+    height: 170px;
   }
 
   .overlay h3 {

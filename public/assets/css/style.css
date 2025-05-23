@@ -95,10 +95,17 @@ header {
 
 .info-pic {
   width: 60%;
-  height: auto;
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  overflow: hidden;
+}
+
+.info-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Collections and dinamic gallery */
@@ -200,14 +207,15 @@ header {
 
 .item-content {
   position: relative;
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 410px;
 }
 
 .collection-item img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  height: auto;
   transition: transform 0.3s ease-in-out;
 }
 
@@ -351,7 +359,7 @@ footer {
 }
 
 .footer-info a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #000;
   font-size: 1.2rem;
 }
